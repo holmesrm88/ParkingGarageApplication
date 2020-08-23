@@ -1,0 +1,24 @@
+---------- INDIVIDUAL CHARGES ------------
+License plate: 6XDR692 Charged: $0.00 for leaving at 2018-11-03T05:00:00
+License plate: 6XDR692 Charged: $0.00 for leaving at 2018-11-15T06:15:00
+License plate: 6XDR692 Charged: $0.00 for leaving at 2018-11-01T10:15:00
+License plate: 7AZV855 Charged: $9.00 for leaving at 2018-11-03T10:15:00
+License plate: 7AZV855 Charged: $9.00 for leaving at 2018-11-05T22:00:00
+License plate: 7AZV855 Charged: $3.00 for leaving at 2018-11-10T11:00:00
+License plate: 7AZV855 Charged: $16.00 for leaving at 2018-11-20T17:05:00
+License plate: 6UZX714 Charged: $0.00 for leaving at 2018-11-10T09:59:00
+License plate: 6UZX714 Charged: $0.00 for leaving at 2018-11-13T08:01:00
+License plate: 6UZX714 Charged: $3.00 for leaving at 2018-11-16T09:00:00
+License plate: 6UZX714 Charged: $6.00 for leaving at 2018-11-16T12:00:00
+License plate: 7BFL679 Charged: $2.54 for leaving at 2018-11-27T08:30:00
+License plate: 7BFL679 Charged: $10.14 for leaving at 2018-11-27T13:15:00
+License plate: 7BFL679 Charged: $13.52 for leaving at 2018-11-28T08:00:00
+---------- TOTAL CHARGES PER CAR ------------
+License Plate 6UZX714 Total Charge $9.00
+License Plate 6XDR692 Total Charge $0.00
+License Plate 7AZV855 Total Charge $37.00
+License Plate 7BFL679 Total Charge $26.20
+---------- TOTAL NUMBER OF CARS ------------
+Total number of cars parked for the month: 14
+---------- TOTAL CHARGES ------------
+TOTAL FOR MONTH: $102.20
