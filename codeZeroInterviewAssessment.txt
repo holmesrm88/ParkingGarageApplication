@@ -1,0 +1,53 @@
+Assignment
+Design a parking garage payment system that determines how much to charge a car as it's pulling out of the parking garage based on how long it was parked. The input, output and parking rates are described below.
+
+You are expected to write code that will ingest the input file, process its content, and output the data requested in the ‘output’ section. We will be reviewing your code along with running your application to ensure it compiles and functions. If there are public/open-source libraries that you’d like to use in your code feel free to use them.
+
+Supported Languages
+Please complete this project in one of the following languages:
+•	C#
+•	C++
+•	Java
+•	JavaScript
+•	Python
+
+Parking Garage Prices
+•	0-29 minutes: $1
+•	30-59 minutes: $3
+•	1-1:59hrs: $6
+•	2-2:59hrs: $9
+•	3-3:59hrs: $12
+•	4-5:59hrs: $15
+•	6-23:59hrs: $16
+•	Per day: $20
+
+If a car is parked for longer than a 24-hour period, they will be charged for the day rate plus however much time past that initial 24, 48, etc. hour period they were parked.
+
+Example:
+Car is parked for 27 hours: $20 (day rate) + $12 (3-hour rate) = $32 charge
+
+Input
+Included in the assignment zip file is an input file that you can use to test your application. Each row in the CSV file represents a specific car either pulling in or out of the parking garage. This CSV is separated by commas ‘,’ so if you require a different delimiter for your locale please let us know.
+
+Each row contains:
+1.	Car license plate number
+2.	Whether the car was pulling in or out (I = in, O = out)
+3.	Time (of arrival if pulling in or departure if pulling out)
+4.	Free parking pass – whether the car has a parking pass that exempts them from charges
+5.	Discount – the discount customer should receive on all parking charges. This is represented as a decimal (e.g. 25.5% = 25.5).
+6.	Prepaid amount – some customers have prepaid for their parking. They shouldn’t be charged for parking until their prepaid amount is depleted. The amount in the input file shows their starting balance for the month (so if they prepaid $100 all rows for that customer will show $100 no matter how much of it they’ve used up).
+
+Expected Output
+Your application should output the following data, where you choose to output this is up to you (console, file, etc.).
+
+1.	An entry for each time a car pulls out what they would have been charged. This needs to include the license plate number, departure time, and charge
+2.	Total number of cars that parked that month
+3.	Total amount of money charged per license plate
+4.	Total amount of money made across all cars
+
+Deliverables
+1.	Your code. We should be able to compile and run your code to get the output.
+2.	A ReadMe file that describes how we should run your code along with documenting any of your assumptions where the instructions were unclear.
+3.	A text file that contains the output from the ‘Expected Output’ section.
+
+
